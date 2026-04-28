@@ -41,9 +41,9 @@ writeups/
 
 ### hack the box — machines
 
-| machine | os | difficulty | status |
-|---|---|---|---|
-| *(in progress)* | — | — | 🔄 |
+| machine | os | difficulty | date | status |
+|---|---|---|---|---|
+| [nibbles](htb/machines/nibbles/README.md) | Linux | Easy | 2026-04-28 | ✅ |
 
 ### hack the box — challenges
 
