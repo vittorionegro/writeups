@@ -12,21 +12,17 @@ vittorionegro / writeups
 documenting the process. nothing more.
 ```
 
-─────────────────────────────────────────────────────────────────
+---
 
-```
-what this is
-```
+## what this is
 
 ctf writeups, lab walkthroughs, and exploit notes.
 primarily htb, with portswigger and tryhackme as the path progresses.
 every writeup is a post-mortem — what broke, what worked, what i'd do differently.
 
-─────────────────────────────────────────────────────────────────
+---
 
-```
-structure
-```
+## structure
 
 ```
 writeups/
@@ -42,11 +38,9 @@ writeups/
     └── <room-name>/
 ```
 
-─────────────────────────────────────────────────────────────────
+---
 
-```
-index
-```
+## index
 
 htb — machines
 
@@ -66,11 +60,9 @@ portswigger web academy
 |---|---|---|
 | — | — | ⬜ |
 
-─────────────────────────────────────────────────────────────────
+---
 
-```
-approach
-```
+## approach
 
 ```
 recon → enumeration → foothold → privesc → loot → debrief
@@ -79,22 +71,18 @@ recon → enumeration → foothold → privesc → loot → debrief
 no skipping steps. no guessing without a reason.
 if it took hours, the writeup reflects that.
 
-─────────────────────────────────────────────────────────────────
+---
 
-```
-tools
-```
+## tools
 
 ```
 nmap  gobuster  burp suite  ffuf  netcat  python
 custom scripts where it makes sense
 ```
 
-─────────────────────────────────────────────────────────────────
+---
 
-```
-htb penetration tester path  ·  28 modules  ·  6.7% complete
-```
+## htb penetration tester path · 28 modules · 6.7% complete
 
 | # | module | difficulty | time | status |
 |---|---|---|---|---|
@@ -127,11 +115,9 @@ htb penetration tester path  ·  28 modules  ·  6.7% complete
 | 27 | documentation & reporting | easy | 2d | ⬜ |
 | 28 | attacking enterprise networks | medium | 2d | ⬜ |
 
-─────────────────────────────────────────────────────────────────
+---
 
-```
-cert path
-```
+## cert path
 
 ```
 ✅  htb getting started
@@ -140,17 +126,13 @@ cert path
 ⬜  oscp                          ← end goal
 ```
 
-─────────────────────────────────────────────────────────────────
+---
 
-```
-site
-```
+## site
 
 vittorionegro.com
 
-─────────────────────────────────────────────────────────────────
+---
 
-```
 writeups posted after machines retire or labs go inactive.
 no spoilers to live content.
-```
