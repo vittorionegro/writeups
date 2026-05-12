@@ -15,7 +15,9 @@
 
 ## what this is
 
-CTF writeups, lab walkthroughs, and exploit notes. Primarily HTB, with TryHackMe and PortSwigger entries as the path progresses. Every write-up is a post-mortem — what broke, what worked, what I'd do differently.
+CTF writeups, lab walkthroughs, and exploit notes.  
+Primarily HTB, with PortSwigger and TryHackMe entries as the path progresses.  
+Every writeup is a post-mortem — what broke, what worked, what I'd do differently.
 
 ---
 
@@ -49,46 +51,51 @@ writeups/
 
 | challenge | category | difficulty | status |
 |---|---|---|---|
-| *(in progress)* | — | — | 🔄 |
+| *(coming soon)* | — | — | 🔄 |
 
 ### portswigger web academy
 
 | lab | category | status |
 |---|---|---|
-| *(in progress)* | — | 🔄 |
+| *(coming soon)* | — | 🔄 |
 
 ---
 
 ## approach
 
-recon → enumeration → foothold → privilege escalation → loot → debrief.
+```
+recon → enumeration → foothold → privesc → loot → debrief
+```
 
-no skipping steps. no guessing without a reason. if it took hours, the writeup reflects that.
+no skipping steps. no guessing without a reason.  
+if it took hours, the writeup reflects that.
 
 ---
 
 ## tools
 
-mostly standard. nmap, gobuster, burp, ffuf, netcat, python. custom scripts where it makes sense.
+nmap · gobuster · burp suite · ffuf · netcat · python  
+custom scripts where it makes sense.
 
 ---
 
 ## cert path
 
 ```
-[now]  HTB Getting Started
-       ↓
-       eJPT
-       ↓
-       OSCP  ← end goal
+ ✅  HTB Getting Started
+ 🔄  HTB Penetration Tester Path  ←  now
+     ↓
+ ⬜  CPTS
+     ↓
+ ⬜  OSCP                         ←  end goal
 ```
 
 ---
 
 ## site
 
-full writeups also published at **[vittorionegro.com](https://vittorionegro.com)**
+writeups also published at **[vittorionegro.com](https://vittorionegro.com)**
 
 ---
 
-*writeups are posted after machines/labs are retired or no longer active. no spoilers to live content.*
+> *writeups posted after machines retire or labs go inactive. no spoilers to live content.*
