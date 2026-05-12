@@ -3,7 +3,7 @@
 **Target:** `10.129.42.249`  
 **Attacker:** `10.10.14.50`  
 **CMS:** GetSimple CMS 3.3.15  
-**OS:** Linux (Ubuntu)
+**OS:** Linux (Ubuntu))
 
 ---
 
