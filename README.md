@@ -130,7 +130,7 @@ custom scripts where it makes sense
 
 ## site
 
-[vittorionegro.com](https://vittorionegro.com)
+every writeup is also live on my website [vittorionegro.com](https://vittorionegro.com)
 
 ---
 
