@@ -81,6 +81,41 @@ custom scripts where it makes sense.
 
 ## cert path
 
+### HTB Penetration Tester Path — 28 modules
+
+| # | module | difficulty | est. time | status |
+|---|---|---|---|---|
+| 01 | Penetration Testing Process | Fundamental | 6h | 🔄 66% |
+| 02 | Getting Started | Fundamental | 1d | ✅ |
+| 03 | Network Enumeration with Nmap | Easy | 7h | 🔄 |
+| 04 | Footprinting | Medium | 2d | 🔄 |
+| 05 | Information Gathering - Web Edition | Easy | 1d | ⬜ |
+| 06 | Vulnerability Assessment | Easy | 2h | ⬜ |
+| 07 | File Transfers | Medium | 3h | ⬜ |
+| 08 | Shells & Payloads | Medium | 2d | ⬜ |
+| 09 | Using the Metasploit Framework | Easy | 5h | ⬜ |
+| 10 | Password Attacks | Medium | 1d | ⬜ |
+| 11 | Attacking Common Services | Medium | 1d | ⬜ |
+| 12 | Pivoting, Tunneling, and Port Forwarding | Medium | 2d | ⬜ |
+| 13 | Active Directory Enumeration & Attacks | Medium | 7d | ⬜ |
+| 14 | Using Web Proxies | Easy | 1d | ⬜ |
+| 15 | Attacking Web Applications with Ffuf | Easy | 5h | ⬜ |
+| 16 | Login Brute Forcing | Easy | 6h | ⬜ |
+| 17 | SQL Injection Fundamentals | Medium | 1d | ⬜ |
+| 18 | SQLMap Essentials | Easy | 1d | ⬜ |
+| 19 | Cross-Site Scripting (XSS) | Easy | 6h | ⬜ |
+| 20 | File Inclusion | Medium | 1d | ⬜ |
+| 21 | File Upload Attacks | Medium | 1d | ⬜ |
+| 22 | Command Injections | Medium | 6h | ⬜ |
+| 23 | Web Attacks | Medium | 2d | ⬜ |
+| 24 | Attacking Common Applications | Medium | 4d | ⬜ |
+| 25 | Linux Privilege Escalation | Easy | 1d | ⬜ |
+| 26 | Windows Privilege Escalation | Medium | 4d | ⬜ |
+| 27 | Documentation & Reporting | Easy | 2d | ⬜ |
+| 28 | Attacking Enterprise Networks | Medium | 2d | ⬜ |
+
+### certification sequence
+
 ```
  ✅  HTB Getting Started
  🔄  HTB Penetration Tester Path  ←  now
