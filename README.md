@@ -9,7 +9,6 @@
 
 ```
 vittorionegro / writeups
-documenting the process. nothing more.
 ```
 
 ---
@@ -17,8 +16,7 @@ documenting the process. nothing more.
 ## what this is
 
 ctf writeups, lab walkthroughs, and exploit notes.
-primarily htb, with portswigger and tryhackme as the path progresses.
-every writeup is a post-mortem — what broke, what worked, what i'd do differently.
+primarily htb, with portswigger and tryhackme.
 
 ---
 
@@ -60,19 +58,6 @@ portswigger web academy
 |---|---|---|
 | — | — | ⬜ |
 
----
-
-## approach
-
-```
-recon → enumeration → foothold → privesc → loot → debrief
-```
-
-no skipping steps. no guessing without a reason.
-if it took hours, the writeup reflects that.
-
----
-
 ## tools
 
 ```
@@ -88,7 +73,7 @@ custom scripts where it makes sense
 |---|---|---|---|---|
 | 01 | penetration testing process | fundamental | 6h | 🔄 |
 | 02 | getting started | fundamental | 1d | ✅ |
-| 03 | network enumeration with nmap | easy | 7h | 🔄 |
+| 03 | network enumeration with nmap | easy | 7h | ✅ |
 | 04 | footprinting | medium | 2d | 🔄 |
 | 05 | information gathering - web edition | easy | 1d | ⬜ |
 | 06 | vulnerability assessment | easy | 2h | ⬜ |
