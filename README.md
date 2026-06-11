@@ -105,7 +105,6 @@ custom scripts where it makes sense
 ## cert path
 
 ```
-✅  htb getting started
 🔄  htb penetration tester path
 ⬜  cpts
 ⬜  oscp                          ← end goal
@@ -116,8 +115,3 @@ custom scripts where it makes sense
 ## site
 
 every writeup is also live on my website [vittorionegro.com](https://vittorionegro.com)
-
----
-
-writeups posted after machines retire or labs go inactive.
-no spoilers to live content.
