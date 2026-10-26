@@ -119,12 +119,17 @@ Legend — ✅ done · 🔄 in progress · ⬜ not started
 
 ## 🛠 Toolkit
 
+Built from what actually shows up across [`/manual`](https://github.com/vittorionegro/manual).
+
 | Phase | Tools |
 |---|---|
-| 🔍 **Recon** | `nmap` · `gobuster` · `ffuf` · `whatweb` |
-| 🌐 **Web** | `burp suite` · `ffuf` · custom scripts |
-| 🐚 **Exploit** | `metasploit` · manual PoCs · `netcat` |
-| ⚙️ **Scripting** | `python` · `bash` |
+| 🔍 **Recon** | `nmap` (+ NSE) · `gobuster` · `ffuf` · `feroxbuster` · `whatweb` · `nikto` |
+| 🌐 **DNS / subdomains** | `dig` · `host` · `dnsenum` · `dnsrecon` · `fierce` · `subfinder` · `amass` |
+| 🧱 **Service enum** | `smbclient` · `smbmap` · `rpcclient` · `enum4linux` · `snmpwalk` · `onesixtyone` · `showmount` |
+| 🐚 **Shells** | `netcat` · `socat` · `rlwrap` |
+| 🏛 **AD / Windows** | `impacket` · `crackmapexec` · `evil-winrm` |
+| 🔑 **Cracking** | `hydra` · `hashcat` |
+| ⚙️ **Scripting** | `python` · `bash` · `curl` · `wget` |
 
 ---
 
