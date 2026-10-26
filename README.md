@@ -21,12 +21,7 @@ CTF writeups and lab walkthroughs — organized by **box**, documented step by s
 
 > **One box = one writeup.** Full walkthrough, start to root.
 
-Each writeup is reproducible: the commands I ran, why I ran them, and the dead ends worth remembering. When a box teaches a reusable technique, the distilled version gets lifted into [`/manual`](https://github.com/vittorionegro/manual) and referenced back here.
-
-```
-Full box walkthrough   →  here (/writeups)
-Reusable technique      →  /manual
-```
+Each writeup is reproducible: the commands I ran, why I ran them, and the dead ends worth remembering.
 
 All work is done in authorized labs — HTB, PortSwigger, TryHackMe. Nothing here targets systems I don't have permission to test.
 
@@ -119,7 +114,7 @@ Legend — ✅ done · 🔄 in progress · ⬜ not started
 
 ## 🛠 Toolkit
 
-Built from what actually shows up across [`/manual`](https://github.com/vittorionegro/manual).
+The gear I reach for, grouped by attack phase.
 
 | Phase | Tools |
 |---|---|
@@ -135,7 +130,7 @@ Built from what actually shows up across [`/manual`](https://github.com/vittorio
 
 <div align="center">
 
-[`/manual`](https://github.com/vittorionegro/manual) · [vittorionegro.com](https://vittorionegro.com) · writeups mirrored on push
+[vittorionegro.com](https://vittorionegro.com) · writeups mirrored on push
 
 <sub>For educational and authorized testing purposes only. · Last updated: 2026-10-26</sub>
 
