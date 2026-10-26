@@ -1,60 +1,47 @@
 <div align="center">
 
-```
- ██╗    ██╗██████╗ ██╗████████╗███████╗██╗   ██╗██████╗ ███████╗
- ██║    ██║██╔══██╗██║╚══██╔══╝██╔════╝██║   ██║██╔══██╗██╔════╝
- ██║ █╗ ██║██████╔╝██║   ██║   █████╗  ██║   ██║██████╔╝███████╗
- ██║███╗██║██╔══██╗██║   ██║   ██╔══╝  ██║   ██║██╔═══╝ ╚════██║
- ╚███╔███╔╝██║  ██║██║   ██║   ███████╗╚██████╔╝██║     ███████║
-  ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝     ╚══════╝
-```
+# 🏴 Writeups
 
-### CTF writeups · lab walkthroughs · exploit notes
+CTF writeups and lab walkthroughs — organized by **box**, documented step by step.
 
-HackTheBox-first, with PortSwigger Web Security Academy and TryHackMe.
-Every writeup is mirrored live on **[vittorionegro.com](https://vittorionegro.com)**.
+Reusable technique notes live in [`/manual`](https://github.com/vittorionegro/manual). Everything here is mirrored on [vittorionegro.com](https://vittorionegro.com).
 
 <br>
 
-![Platform](https://img.shields.io/badge/platform-HackTheBox-9FEF00?style=flat-square&logo=hackthebox&logoColor=black)
-![PortSwigger](https://img.shields.io/badge/-PortSwigger-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![TryHackMe](https://img.shields.io/badge/-TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white)
-![Focus](https://img.shields.io/badge/focus-offensive%20security-1F6FEB?style=flat-square)
-![Writeups](https://img.shields.io/badge/writeups-1-8957E5?style=flat-square)
-![License](https://img.shields.io/badge/license-educational-555?style=flat-square)
+![Focus](https://img.shields.io/badge/focus-offensive_security-0C447C?style=flat-square)
+![Platforms](https://img.shields.io/badge/platforms-HTB_·_PortSwigger_·_THM-185FA5?style=flat-square)
+![Writeups](https://img.shields.io/badge/writeups-1-9FE1CB?style=flat-square&labelColor=0F6E56)
+![Maintained](https://img.shields.io/badge/maintained-yes-639922?style=flat-square)
 
-**[Machines](#-htb--machines) · [Challenges](#-htb--challenges) · [PortSwigger](#-portswigger-web-security-academy) · [CPTS Path](#-htb-penetration-tester-path) · [Toolkit](#-toolkit)**
+[Machines](#-htb--machines) · [Challenges](#-htb--challenges) · [PortSwigger](#-portswigger-web-security-academy) · [CPTS progress](#-cpts-path-progress) · [Toolkit](#-toolkit)
 
 </div>
 
 ---
 
-## ⚡ About
+## 🗂 What this is
 
-A working logbook of offensive-security practice — enumeration, exploitation, and
-privilege escalation, documented the way I'd hand it to a teammate: reproducible
-commands, the reasoning behind each step, and the dead ends worth remembering.
+> **One box = one writeup.** Full walkthrough, start to root.
 
-All work is performed in authorized lab environments (HackTheBox, PortSwigger,
-TryHackMe). Nothing here targets systems I don't have permission to test.
+Each writeup is reproducible: the commands I ran, why I ran them, and the dead ends worth remembering. When a box teaches a reusable technique, the distilled version gets lifted into [`/manual`](https://github.com/vittorionegro/manual) and referenced back here.
+
+```
+Full box walkthrough   →  here (/writeups)
+Reusable technique      →  /manual
+```
+
+All work is done in authorized labs — HTB, PortSwigger, TryHackMe. Nothing here targets systems I don't have permission to test.
 
 ---
 
-## 🗂️ Repository Layout
+## 📁 The folders
 
-```
-writeups/
-├── htb/
-│   ├── machines/
-│   │   └── <machine-name>/
-│   │       ├── README.md       ← the writeup
-│   │       └── assets/         ← screenshots, scripts
-│   └── challenges/
-├── portswigger/
-│   └── <lab-category>/
-└── tryhackme/
-    └── <room-name>/
-```
+| Folder | What lives here |
+|---|---|
+| 🧩 **`htb/machines/`** | Full HackTheBox machine walkthroughs — one folder per box, `README.md` + `assets/` |
+| 🏴 **`htb/challenges/`** | HTB challenge solves — crypto, web, pwn, reversing, forensics |
+| 🔎 **`portswigger/`** | PortSwigger Web Security Academy labs, grouped by category |
+| 🎯 **`tryhackme/`** | TryHackMe room walkthroughs |
 
 ---
 
@@ -78,17 +65,9 @@ writeups/
 
 ---
 
-## 🎯 HTB Penetration Tester Path
+## 📊 CPTS path progress
 
-Working toward **CPTS** through the full Penetration Tester job-role path.
-
-<div align="center">
-
-**5 / 28 modules complete · ~18%**
-
-![Progress](https://img.shields.io/badge/progress-18%25-1F6FEB?style=for-the-badge)
-
-</div>
+HTB Academy Penetration Tester path: **5/28 modules done**, Vulnerability Assessment in progress.
 
 <details>
 <summary><b>📚 Full module tracker</b> (click to expand)</summary>
@@ -140,33 +119,21 @@ Legend — ✅ done · 🔄 in progress · ⬜ not started
 
 ---
 
-## 🧰 Toolkit
+## 🛠 Toolkit
 
-<div align="center">
-
-![Nmap](https://img.shields.io/badge/-Nmap-4682B4?style=flat-square&logo=nmap&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/-Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![ffuf](https://img.shields.io/badge/-ffuf-1F6FEB?style=flat-square)
-![Gobuster](https://img.shields.io/badge/-Gobuster-8957E5?style=flat-square)
-![Metasploit](https://img.shields.io/badge/-Metasploit-2A6DB0?style=flat-square&logo=metasploit&logoColor=white)
-![Netcat](https://img.shields.io/badge/-Netcat-555?style=flat-square)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-</div>
-
-```
-recon       nmap · gobuster · ffuf · whatweb
-web         burp suite · ffuf · custom scripts
-exploit     metasploit · manual PoCs · netcat
-scripting   python · bash
-```
+| Phase | Tools |
+|---|---|
+| 🔍 **Recon** | `nmap` · `gobuster` · `ffuf` · `whatweb` |
+| 🌐 **Web** | `burp suite` · `ffuf` · custom scripts |
+| 🐚 **Exploit** | `metasploit` · manual PoCs · `netcat` |
+| ⚙️ **Scripting** | `python` · `bash` |
 
 ---
 
 <div align="center">
 
-**[vittorionegro.com](https://vittorionegro.com)** · writeups mirrored on push
+[`/manual`](https://github.com/vittorionegro/manual) · [vittorionegro.com](https://vittorionegro.com) · writeups mirrored on push
 
-<sub>For educational and authorized testing purposes only.</sub>
+<sub>For educational and authorized testing purposes only. · Last updated: 2026-10-26</sub>
 
 </div>
