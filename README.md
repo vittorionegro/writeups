@@ -4,8 +4,6 @@
 
 CTF writeups and lab walkthroughs — organized by **box**, documented step by step.
 
-Reusable technique notes live in [`/manual`](https://github.com/vittorionegro/manual). Everything here is mirrored on [vittorionegro.com](https://vittorionegro.com).
-
 <br>
 
 ![Focus](https://img.shields.io/badge/focus-offensive_security-0C447C?style=flat-square)
