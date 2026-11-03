@@ -25,17 +25,6 @@ All work is done in authorized labs — HTB, PortSwigger, TryHackMe.
 
 ---
 
-## 📁 The folders
-
-| Folder Structure |
-|---|---|
-| 🧩 **`htb/machines/`** | Full HackTheBox machine walkthroughs — one folder per box, `README.md` + `assets/` |
-| 🏴 **`htb/challenges/`** | HTB challenge solves — crypto, web, pwn, reversing, forensics |
-| 🔎 **`portswigger/`** | PortSwigger Web Security Academy labs, grouped by category |
-| 🎯 **`tryhackme/`** | TryHackMe room walkthroughs |
-
----
-
 ## 🧩 HTB — Machines
 
 | Machine | OS | Difficulty | Date | Writeup |
