@@ -25,23 +25,25 @@ All work is done in authorized labs — HTB, PortSwigger, TryHackMe.
 
 ---
 
-## 🧩 HTB — Machines
+## 🧩 Hack The Box — Machines
 
-| Machine | OS | Difficulty | Date | Writeup |
-|---|---|:---:|:---:|:---:|
-| **Nibbles** | 🐧 Linux | 🟢 Easy | 2026-04-28 | [📄](htb/machines/nibbles/README.md) |
+<p>
+  <img src="https://img.shields.io/badge/Machines_pwned-1-9FEF00?style=flat-square&logo=hackthebox&logoColor=9FEF00&labelColor=111927" />
+  <img src="https://img.shields.io/badge/Challenges-0-9FEF00?style=flat-square&logo=hackthebox&logoColor=9FEF00&labelColor=111927" />
+  <img src="https://img.shields.io/badge/PortSwigger_labs-0-FF6633?style=flat-square&logo=burpsuite&logoColor=FF6633&labelColor=111927" />
+</p>
 
-## 🏴 HTB — Challenges
+| Machine | OS | Difficulty | Pwned | Writeup |
+|:--|:-:|:-:|:-:|:-:|
+| **Nibbles** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) | ![Easy](https://img.shields.io/badge/Easy-2E7D32?style=flat-square) | `2026-04-28` | [![Read](https://img.shields.io/badge/Read_→-111927?style=flat-square)](machines/nibbles/README.md) |
 
-| Challenge | Category | Difficulty | Writeup |
-|---|---|:---:|:---:|
-| *nothing yet* | — | — | — |
+## 🚩 Hack The Box — Challenges
+
+—
 
 ## 🔎 PortSwigger Web Security Academy
 
-| Lab | Category | Writeup |
-|---|---|:---:|
-| *nothing yet* | — | — |
+—
 
 ---
 
