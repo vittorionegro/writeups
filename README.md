@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏴 Writeups
+# Writeups
 
 CTF writeups and lab walkthroughs — organized by **box**, documented step by step.
 
